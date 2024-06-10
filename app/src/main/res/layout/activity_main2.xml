@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Here is this weeks weather"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/btnDetailViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Daily Views "
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:id="@+id/txtResults"
+        android:layout_width="210dp"
+        android:layout_height="182dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btnBack"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="609dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
